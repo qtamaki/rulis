@@ -1,7 +1,11 @@
 package com.qtamaki.rulis
 
+import RubyLike._
+
 object App {
   def main(args: Array[String]) {
-    print("Hello com.qtamaki.Ruby Like Scala!")
+    println("Hello com.qtamaki.Ruby Like Scala!")
+    println("".blank_?)
+    println("abc" << "def" << "ghi")
   }
 }
